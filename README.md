@@ -25,8 +25,8 @@ To work on the project:
 
 The example project has most everything you need **except** for the logic to drive the impostor rendering and transformation.
 
+It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
 
-
 Here are the defining features that you should replicate:
 
 - The player is able to walk around both objects at a medium distance (2 meters) and have both the original mesh and the impostor look similar
