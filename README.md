@@ -22,10 +22,17 @@ To work on the project:
 
 # Part 1 - Realtime Impostor
 
+An imposter is a type of billboard, intended to replace a mesh that is capable of presenting a different texture based on the angle that it is viewed from. This allows it to be viewed from the side or behind while still looking like a reasonable approximation of the original mesh. 
 
-The example project has most everything you need **except** for the logic to drive the impostor rendering and transformation.
+Here is an example of an impostor in action. The object on the left is an actual mesh, the object on the right is a quad with the impostor texture on it that continuously changes its transformation relative to the player.
+
+![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
 
 It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
+
+Often imposters are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
+
+The example project has most everything you need **except** for the logic to drive the impostor rendering and transformation.
 
 Here are the defining features that you should replicate:
 
