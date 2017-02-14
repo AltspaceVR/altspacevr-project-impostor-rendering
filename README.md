@@ -26,7 +26,7 @@ An imposter is a type of billboard, intended to replace a mesh that is capable o
 
 Here is an example of an impostor in action. The object on the left is an actual mesh, the object on the right is a quad with the impostor texture on it that continuously changes its transformation relative to the player.
 
-![](http://www.reactiongifs.us/wp-content/uploads/2013/10/nuh_uh_conan_obrien.gif)
+![](images/impostor-spin.gif)
 
 It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
 
