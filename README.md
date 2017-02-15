@@ -1,4 +1,4 @@
-# AltspaceVR Programming Project - Graphics Impostor
+# AltspaceVR Programming Project - Impostor Rendering
 
 ## Instructions
 
