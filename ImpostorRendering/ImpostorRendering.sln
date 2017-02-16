@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpostorRendering.CSharp.Plugins", "ImpostorRendering.CSharp.Plugins.csproj", "{6340D450-E0A6-D83D-E5FB-E9978092FFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImpostorRendering.CSharp", "ImpostorRendering.CSharp.csproj", "{50FDBFA4-12A2-7F16-0DF0-131C094A1B6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6340D450-E0A6-D83D-E5FB-E9978092FFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6340D450-E0A6-D83D-E5FB-E9978092FFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6340D450-E0A6-D83D-E5FB-E9978092FFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6340D450-E0A6-D83D-E5FB-E9978092FFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50FDBFA4-12A2-7F16-0DF0-131C094A1B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FDBFA4-12A2-7F16-0DF0-131C094A1B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FDBFA4-12A2-7F16-0DF0-131C094A1B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FDBFA4-12A2-7F16-0DF0-131C094A1B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
