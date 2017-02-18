@@ -43,7 +43,7 @@ Here are the defining features that you should replicate:
 
 - The player is able to make small changes to their height above and below the impostor while still maintaining a reasonable appearance (does not have to support view from directly above or below)
 
-- The impostor texture is only updated when needed. A reasonable choice here can be when the angle between the impostor surface and the player has exceded a certian degree of deflection
+- The impostor texture is only updated when needed. A reasonable choice here can be when the angle between the impostor surface and the player has exceeded a certain degree of deflection
 
 For this part of the project, please **do not** include 3rd party code. You can reference 3rd party code of course, but any code you write for the impostor should be your own. (We'll be asking you how it works!)
 
