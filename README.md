@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Implementation a realtime imposter in an example Unity application, and then build some enhancements to extend it.
+Implement a realtime imposter in the example Unity application, and then build some enhancements to extend it.
 
 ## Goals
 
