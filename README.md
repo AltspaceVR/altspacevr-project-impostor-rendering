@@ -84,6 +84,6 @@ We hope you have fun working on the project, and we can't wait to see what you c
     
 ##Acknowledgements
 
-*Assets used in this project are from* [Free Furniture Props](https://www.assetstore.unity3d.com/en/#!/content/8822)
+*Assets used in this project are from* [Skateboard](https://www.assetstore.unity3d.com/en/#!/content/7030)
 
 
