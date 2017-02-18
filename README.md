@@ -20,6 +20,10 @@ To work on the project:
 
 - Fork and clone the repo.
 
+- Open the Main.unity scene. 
+
+- You will find a labeled hierarchy with the skateboard object and a quad that can be used as the impostor
+
 # Part 1 - Realtime Impostor
 
 An imposter is a type of billboard, intended to replace a mesh that is capable of presenting a different texture based on the angle that it is viewed from. This allows it to be viewed from the side or behind while still looking like a reasonable approximation of the original mesh. 
@@ -32,7 +36,7 @@ It's worth noting that though this is similar to a problem we had to solve at Al
 
 Often imposters are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
 
-The example project has most everything you need **except** for the logic to drive the impostor rendering and transformation.
+The example project has most things you need except for the logic to drive the impostor rendering and transformation.
 
 Here are the defining features that you should replicate:
 
@@ -46,21 +50,21 @@ For this part of the project, please **do not** include 3rd party code. You can 
 
 # Part 2 - Enhancements
 
-Now that you have a working cursor, and can point at and select objects, now build some functionality that might be fun in VR that showcases your skills and creativity. This is the open ended part of the project, and is your chance to blow us away! 
+Now that you have a basic working impostor, add some functionality that would be fun in VR that showcases your skills and creativity. This is the open ended part of the project and is your chance to blow us away! 
 
 Some potential ideas:
 
-- Use the cursor to manipulate objects, and add multiplayer!
+- Support a directional or point light
 
-- Improve the cursor to be more usable.
+- Generate normal or displacement maps for the impostor
 
-- Add some custom shaders, behaviors, or effects to objects to show off your graphics chops.
+- Use tricks to minimize the need to do a full rerender of impostor 
 
-- Add a control scheme or widgets that let the user do stuff with objects.
+- Support large numbers of objects or complex hierarchies
 
-- Create some kind of interactive game.
+- Add caching or offline generation
 
-- Anything you want! Got some new Unity technique you want to try? Use this as an excuse! Don’t feel limited by the sample scene, feel free to create a new scene and leverage your cursor code in some novel way.
+- Create a "guess the original" game
 
 Feel free to use 3rd party code or assets for this part of the project, keeping in mind our assessment criteria (noted at the top of the README.)
 
@@ -68,13 +72,13 @@ Feel free to use 3rd party code or assets for this part of the project, keeping 
 
 In your repo, you should clobber this README file with your own describing your project. Any instructions or known issues should be documented in the README as well.
 
-**Please be sure to commit a working build to your repo**, just in case we have trouble getting your project to build.
+**Please be sure to commit a working windows build to your repo**, just in case we have trouble getting your project to build.
 
 E-mail us a link to your Github repo to `projects@altvr.com`. Please include your contact information, and if you haven't submitted it to us already, your resume and cover letter. 
 
 We hope you have fun working on the project, and we can't wait to see what you come up with!
     
-[The Altspace Team](http://altvr.com/team/)
+[The AltspaceVR Team](http://altvr.com/team/)
     
 ##Acknowledgements
 
