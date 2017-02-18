@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Implementation a realtime impostor in an example Unity application, and then build some enhancements to extend it.
+Implement a realtime impostor in the example Unity application, and then build some enhancements to extend it.
 
 ## Goals
 
@@ -32,7 +32,6 @@ Here is an example of an impostor in action. The object on the left is an actual
 
 ![](images/impostor-spin.gif)
 
-It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
 
 Often impostors are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
 
@@ -84,6 +83,6 @@ We hope you have fun working on the project, and we can't wait to see what you c
     
 ##Acknowledgements
 
-*Assets used in this project are from* [Free Furniture Props](https://www.assetstore.unity3d.com/en/#!/content/8822)
+*Assets used in this project are from* [Skateboard](https://www.assetstore.unity3d.com/en/#!/content/7030)
 
 
