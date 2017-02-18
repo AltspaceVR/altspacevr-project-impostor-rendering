@@ -2,13 +2,13 @@
 
 ## Instructions
 
-Implementation a realtime imposter in an example Unity application, and then build some enhancements to extend it.
+Implementation a realtime impostor in an example Unity application, and then build some enhancements to extend it.
 
 ## Goals
 
 We use this test to get a sense of your coding style and to how you creatively solve both a concrete problem and an abstract one. When we receive your project, here is what we will be asking ourselves:
 
-- Does your imposter look accurate? Is the perspective correct and does it look similar to the example gif?
+- Does your impostor look accurate? Is the perspective correct and does it look similar to the example gif?
 
 - Do your enhancements work well?
 
@@ -26,7 +26,7 @@ To work on the project:
 
 # Part 1 - Realtime Impostor
 
-An imposter is a type of billboard, intended to replace a mesh that is capable of presenting a different texture based on the angle that it is viewed from. This allows it to be viewed from the side or behind while still looking like a reasonable approximation of the original mesh. 
+An impostor is a type of billboard, intended to replace a mesh that is capable of presenting a different texture based on the angle that it is viewed from. This allows it to be viewed from the side or behind while still looking like a reasonable approximation of the original mesh. 
 
 Here is an example of an impostor in action. The object on the left is an actual mesh, the object on the right is a quad with the impostor texture on it that continuously changes its transformation relative to the player.
 
@@ -34,7 +34,7 @@ Here is an example of an impostor in action. The object on the left is an actual
 
 It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
 
-Often imposters are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
+Often impostors are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
 
 The example project has most things you need except for the logic to drive the impostor rendering and transformation.
 
@@ -42,7 +42,7 @@ Here are the defining features that you should replicate:
 
 - The player is able to walk around both objects at a medium distance (2 meters) and have both the original mesh and the impostor look similar
 
-- The player is able to make small changes to their height above and below the imposter while still maintaining a reasonable appearance (does not have to support view from directly above or below)
+- The player is able to make small changes to their height above and below the impostor while still maintaining a reasonable appearance (does not have to support view from directly above or below)
 
 - The impostor texture is only updated when needed. A reasonable choice here can be when the angle between the impostor surface and the player has exceded a certian degree of deflection
 
