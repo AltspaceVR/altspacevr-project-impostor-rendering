@@ -32,8 +32,6 @@ Here is an example of an impostor in action. The object on the left is an actual
 
 ![](images/impostor-spin.gif)
 
-It's worth noting that though this is similar to a problem we had to solve at AltspaceVR, this section of the project is designed more to be a self-contained project rather than to be a practical solution to a specific problem. 
-
 Often imposters are created offline. In the interest of simplicity, feel free to implement the rendering of the billboard texture as an operation that happens at runtime, re-rendering the billboard texture as needed
 
 The example project has most things you need except for the logic to drive the impostor rendering and transformation.
