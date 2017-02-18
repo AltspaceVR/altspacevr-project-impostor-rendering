@@ -50,7 +50,7 @@ For this part of the project, please **do not** include 3rd party code. You can 
 
 # Part 2 - Enhancements
 
-Now that you have a basic working impostor, add some functionality that would be fun in VR that showcases your skills and creativity. This is the open ended part of the project and is your chance to blow us away! 
+Now that you have a basic working impostor, add one or two new pieces of functionality that would be fun in VR that showcases your skills and creativity. This is the open ended part of the project and is your chance to blow us away! 
 
 Some potential ideas:
 
@@ -64,7 +64,9 @@ Some potential ideas:
 
 - Add caching or offline generation
 
-- Create a "guess the original" game
+- Support stereo rendering
+
+- Enable more accurate sorting and intersection
 
 Feel free to use 3rd party code or assets for this part of the project, keeping in mind our assessment criteria (noted at the top of the README.)
 
